@@ -88,7 +88,7 @@ window.onload = function() {
 }
 ```
 
-7. Download the following [favicon.ico](resources/icons/favicon.ico) to my-first-site folder
+7. Download the following [favicon.ico](resources/first-site/favicon.ico) to my-first-site folder
 8. Go to the my-first-site folder and double click the file `index.html`
 9. You should see a web page like this one:
 ![My First Site](resources/first-site/my_first_site.png)
