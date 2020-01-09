@@ -24,7 +24,7 @@ Follow the next steps to create your first site!!
 <html lang="en">
 <head>
   <title>My First Site</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
