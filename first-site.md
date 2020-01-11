@@ -13,7 +13,7 @@ Follow the next steps to create your first site!!
 ![open Visual Studio Code](resources/first-site/open_folder_2.png)
 5. Create the following files inside the my-first-site folder :
   * index.html
-  * style.css
+  * styles.css
   * script.js
 ![open Visual Studio Code](resources/first-site/create_files.png)
 6. Copy and Paste the following code on each document
@@ -24,7 +24,7 @@ Follow the next steps to create your first site!!
 <html lang="en">
 <head>
   <title>My First Site</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -38,7 +38,7 @@ Follow the next steps to create your first site!!
 </html>
 ```
 
-### style.css
+### styles.css
 ```css
 body {
   background-color: lightgray;
