@@ -35,4 +35,4 @@
 
 ## If you got everything on this list you're rocking it!!! congratulations!!!
 
-![Congrats!!](../../resources/images/html/congrats.gif)
+![Congrats!!](../../resources/html/congrats.gif)
