@@ -13,7 +13,7 @@ Follow the next steps to create your first site!!
 ![open Visual Studio Code](resources/first-site/open_folder_2.png)
 5. Create the following files inside the my-first-site folder :
   * index.html
-  * styles.css
+  * style.css
   * script.js
 ![open Visual Studio Code](resources/first-site/create_files.png)
 6. Copy and Paste the following code on each document
