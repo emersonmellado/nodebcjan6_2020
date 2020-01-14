@@ -12,7 +12,7 @@
     - Mac: CMD + Space and type terminal, hit enter
     - Windows: Hit the windows key and type 'git bash', hit enter
     - Linux: Press Ctrl+Alt+T in Ubuntu, otherwise it may depend on your distro.
-* Run the following command on your terminal
+* Run the following command on your terminal, to run a command type it and hit enter.
 
 ```bash
 git --version
