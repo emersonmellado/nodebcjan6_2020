@@ -15,7 +15,7 @@ The course content will be distributed on a weekly basis, feel free to read it a
 * [HTML](html.md)
 
 ### Week 2
-* Git & Github
+* [Git & Github](git.md)
 * CSS
 * JavaScript
 
