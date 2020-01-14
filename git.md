@@ -8,7 +8,11 @@
 > Git is a free and open source **distributed version control system** designed to handle everything from small to very large projects with speed and efficiency.
 
 * [Donwload and install Git](https://git-scm.com)
-* After install run the following command on your terminal
+* After install open a terminal:
+    - Mac: CMD + Space and type terminal, hit enter
+    - Windows: Hit the windows key and type 'git bash', hit enter
+    - Linux: Press Ctrl+Alt+T in Ubuntu, otherwise it may depend on your distro.
+* Run the following command on your terminal
 
 ```bash
 git --version
@@ -23,9 +27,8 @@ git --version
 ## Configure and use Git in our local environment
 * To configure our Git/Github project we'll need to use our [command line interface](https://en.wikipedia.org/wiki/Command-line_interface)
 * As the commands might change between operating systems:
-  * [Windows Command Prompt Cheat sheet](http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt)
-  * [Linux/Mac Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
-* This tutorial uses the Linux/Mac commands (If you use Windows please check the previous guide)
+  * [Bash Cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
+* This tutorial uses the Linux/Mac commands (If you use Windows please make sure to open 'git bash' so you can run linux commands in Windows.)
 * Create a folder with the name `nodebc`
 
 ```bash
@@ -743,7 +746,7 @@ git log
 ## Git & Github Assets
 * [Git Reference](https://git-scm.com/docs)
 * [Git Free book](https://git-scm.com/book/en/v2)
-* [Github Git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+* [Github Git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
 * [Visual cheat sheet](http://ndpsoftware.com/git-cheatsheet.html#loc=;)
 * [Github](https://github.com)
 * [Github Hello World](https://guides.github.com/activities/hello-world)
