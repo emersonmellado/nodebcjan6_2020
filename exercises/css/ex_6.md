@@ -55,7 +55,7 @@
     * Font must be bold and coral color
   * Select the element with the id quote and apply the following styles:
     * Letters must have a 2px spacing, the font style must be italic and darkcyan color
-  * Select the elements with the last class and applyt the following styles:
+  * Select the elements with the last class and apply the following styles:
     * Text must be right aligned and red color
   * Select the elements with the wrong class and apply the following styles:
     * The text must be decorated a black line-through, the font must be 1.2em tall and weight 700
