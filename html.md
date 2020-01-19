@@ -941,7 +941,7 @@ Facebook:
 
 * The `value` attribute contains the value of the text input
 * The user will see any predefined value
-* To clear the input the user will have to manualy delete the input content
+* To clear the input the user will have to manually delete the input content
 
 **Example:**
 ```html
