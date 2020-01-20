@@ -1091,7 +1091,7 @@ a {
 ```css
 /* All borders set to dotted */
 div {
-  border-width: dotted;
+  border-style: dotted;
 }
 ```
 
