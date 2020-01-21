@@ -541,7 +541,7 @@ To link about.html to index.html we need to exit 2 folders (../../filename)
 <a href="../../index.html">Go home</a>
 ```
 
-* [absolute vs relative pathslinks](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks)
+* [absolute vs relative pathlinks](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks)
 * [What are hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_hyperlinks)
 * [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
 * [Dealing with files](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files)
