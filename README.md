@@ -17,23 +17,27 @@ The course content will be distributed on a weekly basis, feel free to read it a
 ### Week 2
 * [Git & Github](git.md)
 * [CSS](css.md)
-* JavaScript
 
 ### Week 3
+* Wrap up HTML and CSS exercises and basic versioning
+* [JavaScript](javascript.md)
+
+### Week 4 & 5
 * JavaScript
-
-### Week 4
-* Browser API
-
-### Week 5
-* Node.js
 
 ## Walk
 ### Week 6
-* Building a Node.js site with Express
+* Browser API
+
 ### Week 7
+* Node.js
+
+### Week 8
+* Building a Node.js site with Express
+
+### Week 9
 * MongoDB & Mongoose
 
 ## Run
-### Week 8
+### Week 10
 * Deploy
