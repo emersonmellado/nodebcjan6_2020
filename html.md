@@ -305,7 +305,7 @@ attribute="value"
 
 **Example:**
 ```html
-<p>This text will have a line breack<br> and then we keep on writing</p>
+<p>This text will have a line break<br> and then we keep on writing</p>
 <br>
 <br>
 <p>We can use a line break in any <br> part of our documents body</p>
