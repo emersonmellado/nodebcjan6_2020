@@ -397,7 +397,7 @@ attribute="value"
 ### Nested list
 * List can be nested inside list items
 * We can use any list type
-* Very helful and used to create sites menus adding CSS
+* Very helpful and used to create sites menus adding CSS
 
 ![mindblown](resources/html/mindblown.gif)
 
