@@ -1130,7 +1130,7 @@ Facebook:
 **Example**
 ```html
 <form>
-  Select your favourite Harry Potter wizzards
+  Select your favourite Harry Potter wizards
   <input type="checkbox" name="wizards" value="harry potter" checked="checked" > Harry Potter
   <input type="checkbox" name="wizards" value="hermione granger" checked> Hermione Granger
   <input type="checkbox" name="wizards" value="ron weasley"> Ron Weasley
