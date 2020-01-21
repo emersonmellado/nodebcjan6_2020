@@ -49,15 +49,15 @@
   * Use the same definition to apply h1 & h2 the shared properties
   * Select all paragraphs and apply the following styles:
     * line height must be 1.4em and ident the text using 0.8em
-  * Select the main class and apply the following style:
+  * Select the class **main** and apply the following style:
     * Text must use justify align
-  * Select the bold class and apply the following styles:
+  * Select the class **bold** and apply the following styles:
     * Font must be bold and coral color
-  * Select the element with the id quote and apply the following styles:
+  * Select the element with the id **quote** and apply the following styles:
     * Letters must have a 2px spacing, the font style must be italic and darkcyan color
-  * Select the elements with the last class and apply the following styles:
+  * Select the elements with the class **last** and apply the following styles:
     * Text must be right aligned and red color
-  * Select the elements with the wrong class and apply the following styles:
+  * Select the elements with the class **wrong** and apply the following styles:
     * The text must be decorated a black line-through, the font must be 1.2em tall and weight 700
-  * Select the elements with the google class and apply the following styles:
+  * Select the elements with the class **google** and apply the following styles:
     * Use google fonts to apply the Merriweather family, also font size must be 1.6em and purple color
