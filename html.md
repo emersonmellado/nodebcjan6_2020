@@ -75,7 +75,7 @@ Finaly, this is how the news HTML code looks like:
 * In this case the first tag is working as an opening one
 * We need to close this structure to let the browser know that we finished defining this structure
 * Closing tags are pretty similar to the opening ones but with a minor difference
-* Add a `/` character after the `<` and the tagname
+* Add a `/` character after the `<` and then follow with the tagname
 
 ```html
 <tagname>Content of our tag</tagname>
