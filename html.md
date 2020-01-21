@@ -569,7 +569,7 @@ Then we need to create the anchor by using the name attribute
 <a name="news"></a>
 
 We created an empty link with the news attribute. As they are on the same document the browser will try to
-navigate to the news anchor.
+ navigate to the news anchor.
 
 To be able to see this magic working we need to create long documents
 
