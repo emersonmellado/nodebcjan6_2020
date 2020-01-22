@@ -1879,7 +1879,7 @@ input[type="submit"]:hover {
   * fixed
   * sticky
 * We'll use the **top, right, bottom, and left** properties to determine the final location of positioned element
-* [MDN position doc](https://developer.mozilla.org/es/docs/Web/CSS/position)
+* [MDN position doc](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
 #### Static
 * This is the default value
