@@ -691,7 +691,7 @@ body { font-family: 'IBM Plex Mono', monospace; }
 * [MDN font-size doc](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 * [MDN length doc](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 * [MDN percentage Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage)
-* [Viewport sized yypography tutorial](https://css-tricks.com/viewport-sized-typography/)
+* [Viewport sized typography tutorial](https://css-tricks.com/viewport-sized-typography/)
 * [Read the How to size text in css a list apart guide!](https://alistapart.com/article/howtosizetextincss)
 
 ![Font size](./resources/css/size.png)
