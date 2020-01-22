@@ -31,7 +31,7 @@ element_selector {
 * The **type selector** matches elements by node name
 * It selects **all** elements of the given type within a document
 * Between **{ }** goes CSS code
-* [MDN type selecto doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
+* [MDN type selector doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
 
 **Selector Example**
 ```css
