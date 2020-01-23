@@ -223,7 +223,7 @@ var healthInsuranceNumber;
 
 #### Practice
 * Create a folder called js inside your exercises folder.
-- All fils of our JS studies will live in here.
+- All files of our JS studies will live in here.
 
 [Exercise 1](./exercises/js/ex_1.md)
 
