@@ -31,7 +31,7 @@ element_selector {
 * The **type selector** matches elements by node name
 * It selects **all** elements of the given type within a document
 * Between **{ }** goes CSS code
-* [MDN type selecto doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
+* [MDN type selector doc](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)
 
 **Selector Example**
 ```css
@@ -167,7 +167,7 @@ span {
 <span style="color: white;">Other white text</span>
 ```
 
-* This type of selection is usefull if we only need a couple of elements
+* This type of selection is useful if we only need a couple of elements
 * It's hard to change values if we have many items
 * As it's the last property that the browser reads, it's also the [higher priority one](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 * Because it is the last property read, it's a good option when you need to override styles
@@ -469,7 +469,7 @@ div a {
 <div>
   <a href="#">Link inside a div</a>
   <p>
-    <a href="#">Link inside a parragraph inside a div</a>
+    <a href="#">Link inside a paragraph inside a div</a>
   </p>
 </div>
 ```
@@ -544,7 +544,7 @@ p + div {
 }
 ```
 ```html
-<p>Parragraph content</p>
+<p>Paragraph content</p>
 <div>Red text sibling Div</div>
 <div>Black sibling Div</div>
 ```
@@ -559,7 +559,7 @@ p ~ div {
 }
 ```
 ```html
-<p>Parragraph content</p>
+<p>Paragraph content</p>
 <div>Red text sibling Div</div>
 <div>Red text sibling Div</div>
 ```
@@ -611,7 +611,7 @@ body {
 
 * In this case the browser will try to use the first value (Times new roman or arial depending the case)
 * We can add a different font family that might be similar to the previous one just in case the first one doesn't work
-* Finaly we add a third option with a generic font-family to make the text look the way we want in some way
+* Finally we add a third option with a generic font-family to make the text look the way we want in some way
 
 ### Web Fonts
 * Web fonts are a CSS feature that allows you to specify font files to be downloaded along with your website as it is accessed
@@ -656,7 +656,7 @@ span {
 
 * Also we can use [Google fonts](https://fonts.google.com) in our documents
 * First we need to select a font using the + icon
-* Then we'll see a dialog on the bottom righ section of the site
+* Then we'll see a dialog on the bottom right section of the site
 * We'll have to use the **link HTML element** to add a reference to the google font site
 
 **Example:**
@@ -691,7 +691,7 @@ body { font-family: 'IBM Plex Mono', monospace; }
 * [MDN font-size doc](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 * [MDN length doc](https://developer.mozilla.org/en-US/docs/Web/CSS/length)
 * [MDN percentage Doc](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage)
-* [Viewport sized yypography tutorial](https://css-tricks.com/viewport-sized-typography/)
+* [Viewport sized typography tutorial](https://css-tricks.com/viewport-sized-typography/)
 * [Read the How to size text in css a list apart guide!](https://alistapart.com/article/howtosizetextincss)
 
 ![Font size](./resources/css/size.png)
@@ -716,7 +716,7 @@ h1 { font-size: 2em; }
   * bold: same as 700
   * lighter: one font weight lighter than the parent element (among the available weights of the font)
   * bolder: one font weight heavier than the parent element (among the available weights of the font)
-  * Number bettwen 100 & 900: numeric font weights for fonts that provide more than just normal and bold
+  * Number between 100 & 900: numeric font weights for fonts that provide more than just normal and bold
 * [MDN font-weight doc](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
 * [CSS tricks font-weight tutorial](https://css-tricks.com/almanac/properties/f/font-weight)
 
@@ -761,7 +761,7 @@ div { font-style: italic; }
 
 ### Transform
 * The **text-transform** property specifies how to capitalize an element's text
-* This prorperty is text and not font as it's changing the text style and doesn't have to do with font
+* This property is text and not font as it's changing the text style and doesn't have to do with font
 * It can be used to make text appear in all-uppercase or all-lowercase, or with each word capitalized
 * [MDN text-transform doc](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
 
@@ -784,7 +784,7 @@ span {
 * The **text-align** property describes how inline content like text is aligned in its parent block element
 * This property align does not control the alignment of block elements, only their inline content (just the text)
 * We can use the following values: **inherit, left, right, center, justify, justify-all, start, end, match-parent**
-  * justify-all: works in the same way tha justify, but also forces the last line to be justified
+  * justify-all: works in the same way that justify, but also forces the last line to be justified
   * start: same as left if direction is left-to-right and right if direction is right-to-left
   * end: same as right if direction is left-to-right and left if direction is right-to-left
   * match-parent: similar to inherit, but the values start and end are calculated according to the parent's direction and are replaced by the appropriate left or right value
@@ -937,7 +937,7 @@ div {
 * On non-replaced inline elements, it specifies the height that is used to calculate line box height
 * Property values:
   * normal: depends on the user agent. Desktop browsers (including Firefox) use a default value of roughly 1.2, depending on the element's font-family
-  * number: the used value is this unitless number multiplied by the element's own font size. 
+  * number: the used value is this unit-less number multiplied by the element's own font size. 
     * The computed value is the same as the specified number
     * In most cases, this is the preferred way to set line-height and avoid unexpected results due to inheritance
     * length: is used in the calculation of the line box height
@@ -1070,7 +1070,7 @@ p {
   border-width: 2px 3px;
 }
 
-/* Top is set to 2px, left &  right to 3px and finaly bottom is set to 1px */
+/* Top is set to 2px, left &  right to 3px and finally bottom is set to 1px */
 span {
   border-width: 2px 3px 1px;
 }
@@ -1350,7 +1350,7 @@ div {
 * We can set the margin value to **auto**
 * By setting left and right margins to auto we can center align a element
 * Also we need to use the width property
-* We can only center elements horizontaly using this technic 
+* We can only center elements horizontally using this technic 
 * Use margin auto with `block` elements only
 * To center an inline element we can always use **text-align:center**
 
@@ -1378,7 +1378,7 @@ div {
 }
 ```
 
-* Also we can se the background color to be **transparent**
+* Also we can set the background color to be **transparent**
 * This is the value by default
 
 **Example:**
@@ -1427,7 +1427,7 @@ div {
 * Third value is the `blur radius` (170px)
 * Fourth value is the `spread radius` (-8px)
 * And the last value is the `shadow color`
-* In this example we use the rgba function that allows us to use a rgb color + alpha channel (value from 0 to 1) to set the `shadow color ppacity` (0.8)
+* In this example we use the rgba function that allows us to use a rgb color + alpha channel (value from 0 to 1) to set the `shadow color opacity` (0.8)
 
 **Example:**
 ```css
@@ -1525,7 +1525,7 @@ div {
 }
 ```
 
-* Also we can use multiple images comma separeted 
+* Also we can use multiple images comma separated 
 
 **Example:**
 ```css
@@ -1555,7 +1555,7 @@ div {
   /* Only repeat the image using the y axis */
   background-repeat: repeat-x;
 
-  /* Repeat both x & y axix */
+  /* Repeat both x & y axis */
   background-repeat: repeat;
 }
 ```
@@ -1663,7 +1663,7 @@ div {
 ## Cursor
 * The **cursor** property specifies which mouse cursor to display when the mouse pointer is over an element
 * Property values: **auto, crosshair, default, pointer, move, text, wait, help**
-* We can change the **cursos** value to give more information about what the user can do
+* We can change the **cursor** value to give more information about what the user can do
 * [MDN cursor doc](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
 
 **Example:**
@@ -2040,7 +2040,7 @@ div.second {
 
 * In this case we can use the **z-index** property to change the way elements will overlap
 * Position value: a number
-* Lower numbers are overlap]ped by higher ones
+* Lower numbers are overlapped by higher ones
 * [MDN z-index doc](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 
 **Example:**
@@ -2108,7 +2108,7 @@ div {
 ![Fixed position](./resources/css/layout/fixed1.png)
 
 * If we scroll down the static elements will follow the scroll flow
-* The fixed element is going to stay in the same possition
+* The fixed element is going to stay in the same position
 
 ![Fixed position](./resources/css/layout/fixed2.png)
 * [Position fixed example](./examples/css/layout/fixed.html)
@@ -2194,7 +2194,7 @@ img {
 }
 ```
 
-* By default if we add a image bettwen text it's going to look like this:
+* By default if we add a image between text it's going to look like this:
 
 ![Float](./resources/css/layout/float1.png)
 
@@ -2228,7 +2228,7 @@ div {
 
 * [Float image example](./examples/css/layout/float2.html)
 
-* In this example we float boath div elements to the left so each will position beside the other one
+* In this example we float both div elements to the left so each will position beside the other one
 * We set the width value to 50% so each of them will cover half of the parent container
 * When we float elements the parent container doesn't know the height of the elements
 * In this case we need to set a height to the parent element
@@ -2354,7 +2354,7 @@ body {
 }
 ```
 
-* We configure a couple of media query so the body background color will change deppending the device screen resolution
+* We configure a couple of media query so the body background color will change depending the device screen resolution
 * Use the `and` operator to add more than one rule
 
 * [Media Query example](./examples/css/media/resolution.html)
