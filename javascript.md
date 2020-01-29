@@ -1164,7 +1164,7 @@ console.log(!false); // true
 let age = 21;
 let result = age < 18; 
 
-console.log('User age greater than or equal to 18?: ', !result);
+console.log('User age less than or equal to 18?: ', !result);
 ```
 
 * The age condition is **false** but as we use the not operator it will be **true**
