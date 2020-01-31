@@ -95,7 +95,7 @@ Finaly, this is how the news HTML code looks like:
   * With content - need the opening and closing tags
 
 ### Tag attribute
-* Tag attributes are additional values that configure the tags or adjust their behavior in various ways to meet the criteria the users want.
+* Tag attributes are additional values that configure the tags or adjust their behavior in various ways to meet the criteria the users want
 * The attributes will have an attribute name and a value
 ```html
 attribute="value"
@@ -110,9 +110,9 @@ attribute="value"
 
 * HTML defines elements attributes
 * Some attributes are global
-* The **id** attribute allow us to unique identify an element in a document
+* The **id** attribute allows us to uniquely identify an element in a document
 * We can add an id attribute to any HTML element
-* There must only one element by id
+* There must be only one element for each unique id
 
 ```html
 <tagname id="first-element">
