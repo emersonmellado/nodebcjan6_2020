@@ -82,7 +82,7 @@ Finaly, this is how the news HTML code looks like:
 ```
 
 * We can write this in a different format too
-* Using [identation](https://en.wikipedia.org/wiki/Indentation_(typesetting)) it's a good practice when we code as it allows us to see complex structures in a simpler way
+* Using [indentation](https://en.wikipedia.org/wiki/Indentation_(typesetting)) is a good practice when we code as it allows us to see complex structures in a simpler way
 
 ```html
 <tagname>
