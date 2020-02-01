@@ -756,7 +756,7 @@ Absolute URL:
 [Exercise 9](exercises/html/ex_09.md)
 
 ### Make the tables happier!
-* The table element has some attributes that will allow us to add color and other visual efects
+* The table element has some attributes that will allow us to add color and other visual effects
 * This attributes belong to previous HTML versions but we can still use them
 * Remember that we only should use HTML to structure our documents and add CSS to change the way things look
 * The **border** attribute defines, in pixels, the size of the frame surrounding the table. If set to 0, the frame attribute is set to void
