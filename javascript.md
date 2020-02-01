@@ -1700,7 +1700,7 @@ const name = 'Mary';
 
 if (name === 'Miriam') {
   console.log('The name is Miriam');
-} else if (nombre === 'Felipa') {
+} else if (name === 'Felipa') {
   console.log('The name is Felipa');
 } else {
   console.log('The name is not Miriam or Felipa');
