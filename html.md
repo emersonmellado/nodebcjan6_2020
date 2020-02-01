@@ -1042,7 +1042,7 @@ Facebook:
 ```
 
 * The label element has a **for** attribute
-* Once we set the **for** attribute, the user will be able to click on the **label** element to get focus in the setted for value
+* Once we set the **for** attribute, the user will be able to click on the **label** element to get focus in the set for value
 * The id of a labelable form-related element in the same document as the label element.
 * The first such element in the document with an ID matching the value of the for attribute is the labeled control for this label element
 
