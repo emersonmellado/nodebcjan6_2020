@@ -136,7 +136,7 @@ node
 node program.js
 ```
 
-* Once we execute this command Node.js will read and interpretate our JS code
+* Once we execute this command Node.js will read and interpret our JS code
 * We use the `.js` extension for our JavaScript code
 
 ### Using a Node.js file
@@ -172,7 +172,7 @@ node index.js
 * Now we see the expected output!!!
 
 ### Conclusion
-* Browser and Node.js internaly use the V8 JavaScript engine to run JavaScript code
+* Browser and Node.js internally use the V8 JavaScript engine to run JavaScript code
 * We can use the Browser or Node.js console to try out JavaScript code
 * V8 is maintained by Google
 * We'll use browser to run JavaScript client side and Node.js for Server side
@@ -223,7 +223,7 @@ var healthInsuranceNumber;
 
 #### Practice
 * Create a folder called js inside your exercises folder.
-- All fils of our JS studies will live in here.
+- All files of our JS studies will live in here.
 
 [Exercise 1](./exercises/js/ex_1.md)
 
