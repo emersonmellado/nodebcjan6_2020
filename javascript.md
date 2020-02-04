@@ -1596,7 +1596,7 @@ if (true) {
 
 **Example:**
 ```js
-const playerLifer = 0;
+const playerLife = 0;
 
 if (playerLife == 0) {
   console.log('Game Over!!!!');
