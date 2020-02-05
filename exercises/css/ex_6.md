@@ -48,7 +48,7 @@
     * Font must be: 1.5em big, color #ddd, shadow: 1px 2px 3px #666 and text in uppercase
   * Use the same definition to apply h1 & h2 the shared properties
   * Select all paragraphs and apply the following styles:
-    * line height must be 1.4em and ident the text using 0.8em
+    * line height must be 1.4em and indent the text using 0.8em
   * Select the class **main** and apply the following style:
     * Text must use justify align
   * Select the class **bold** and apply the following styles:
