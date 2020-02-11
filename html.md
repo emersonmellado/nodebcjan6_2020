@@ -73,16 +73,16 @@ Finaly, this is how the news HTML code looks like:
 ```
 
 * In this case the first tag is working as an opening one
-* We need to close this structure to let the browser know that we finished definening this structure
+* We need to close this structure to let the browser know that we finished defining this structure
 * Closing tags are pretty similar to the opening ones but with a minor difference
-* Add a `/` character after the `<` and the tagname
+* Add a `/` character after the `<` and then follow with the tagname
 
 ```html
 <tagname>Content of our tag</tagname>
 ```
 
 * We can write this in a different format too
-* Using [identation](https://en.wikipedia.org/wiki/Indentation_(typesetting)) it's a good practice when we code as it allows us to see complex structures in a simpler way
+* Using [indentation](https://en.wikipedia.org/wiki/Indentation_(typesetting)) is a good practice when we code as it allows us to see complex structures in a simpler way
 
 ```html
 <tagname>
@@ -95,7 +95,7 @@ Finaly, this is how the news HTML code looks like:
   * With content - need the opening and closing tags
 
 ### Tag attribute
-* Tag attributes are additional values that configure the tags or adjust their behavior in various ways to meet the criteria the users want.
+* Tag attributes are additional values that configure the tags or adjust their behavior in various ways to meet the criteria the users want
 * The attributes will have an attribute name and a value
 ```html
 attribute="value"
@@ -110,9 +110,9 @@ attribute="value"
 
 * HTML defines elements attributes
 * Some attributes are global
-* The **id** attribute allow us to unique identify an element in a document
+* The **id** attribute allows us to uniquely identify an element in a document
 * We can add an id attribute to any HTML element
-* There must only one element by id
+* There must be only one element for each unique id
 
 ```html
 <tagname id="first-element">
@@ -305,7 +305,7 @@ attribute="value"
 
 **Example:**
 ```html
-<p>This text will have a line breack<br> and then we keep on writing</p>
+<p>This text will have a line break<br> and then we keep on writing</p>
 <br>
 <br>
 <p>We can use a line break in any <br> part of our documents body</p>
@@ -397,7 +397,7 @@ attribute="value"
 ### Nested list
 * List can be nested inside list items
 * We can use any list type
-* Very helful and used to create sites menus adding CSS
+* Very helpful and used to create sites menus adding CSS
 
 ![mindblown](resources/html/mindblown.gif)
 
@@ -569,7 +569,7 @@ Then we need to create the anchor by using the name attribute
 <a name="news"></a>
 
 We created an empty link with the news attribute. As they are on the same document the browser will try to
-navigate to the news anchor.
+ navigate to the news anchor.
 
 To be able to see this magic working we need to create long documents
 
@@ -756,7 +756,7 @@ Absolute URL:
 [Exercise 9](exercises/html/ex_09.md)
 
 ### Make the tables happier!
-* The table element has some attributes that will allow us to add color and other visual efects
+* The table element has some attributes that will allow us to add color and other visual effects
 * This attributes belong to previous HTML versions but we can still use them
 * Remember that we only should use HTML to structure our documents and add CSS to change the way things look
 * The **border** attribute defines, in pixels, the size of the frame surrounding the table. If set to 0, the frame attribute is set to void
@@ -941,7 +941,7 @@ Facebook:
 
 * The `value` attribute contains the value of the text input
 * The user will see any predefined value
-* To clear the input the user will have to manualy delete the input content
+* To clear the input the user will have to manually delete the input content
 
 **Example:**
 ```html
@@ -1042,7 +1042,7 @@ Facebook:
 ```
 
 * The label element has a **for** attribute
-* Once we set the **for** attribute, the user will be able to click on the **label** element to get focus in the setted for value
+* Once we set the **for** attribute, the user will be able to click on the **label** element to get focus in the set for value
 * The id of a labelable form-related element in the same document as the label element.
 * The first such element in the document with an ID matching the value of the for attribute is the labeled control for this label element
 
@@ -1130,7 +1130,7 @@ Facebook:
 **Example**
 ```html
 <form>
-  Select your favourite Harry Potter wizzards
+  Select your favourite Harry Potter wizards
   <input type="checkbox" name="wizards" value="harry potter" checked="checked" > Harry Potter
   <input type="checkbox" name="wizards" value="hermione granger" checked> Hermione Granger
   <input type="checkbox" name="wizards" value="ron weasley"> Ron Weasley

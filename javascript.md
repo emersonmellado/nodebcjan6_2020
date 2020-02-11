@@ -136,7 +136,7 @@ node
 node program.js
 ```
 
-* Once we execute this command Node.js will read and interpretate our JS code
+* Once we execute this command Node.js will read and interpret our JS code
 * We use the `.js` extension for our JavaScript code
 
 ### Using a Node.js file
@@ -172,7 +172,7 @@ node index.js
 * Now we see the expected output!!!
 
 ### Conclusion
-* Browser and Node.js internaly use the V8 JavaScript engine to run JavaScript code
+* Browser and Node.js internally use the V8 JavaScript engine to run JavaScript code
 * We can use the Browser or Node.js console to try out JavaScript code
 * V8 is maintained by Google
 * We'll use browser to run JavaScript client side and Node.js for Server side
@@ -223,7 +223,7 @@ var healthInsuranceNumber;
 
 #### Practice
 * Create a folder called js inside your exercises folder.
-- All fils of our JS studies will live in here.
+- All files of our JS studies will live in here.
 
 [Exercise 1](./exercises/js/ex_1.md)
 
@@ -1164,7 +1164,7 @@ console.log(!false); // true
 let age = 21;
 let result = age < 18; 
 
-console.log('User age greater than or equal to 18?: ', !result);
+console.log('User age less than or equal to 18?: ', !result);
 ```
 
 * The age condition is **false** but as we use the not operator it will be **true**
@@ -1596,7 +1596,7 @@ if (true) {
 
 **Example:**
 ```js
-const playerLifer = 0;
+const playerLife = 0;
 
 if (playerLife == 0) {
   console.log('Game Over!!!!');
@@ -1700,7 +1700,7 @@ const name = 'Mary';
 
 if (name === 'Miriam') {
   console.log('The name is Miriam');
-} else if (nombre === 'Felipa') {
+} else if (name === 'Felipa') {
   console.log('The name is Felipa');
 } else {
   console.log('The name is not Miriam or Felipa');
@@ -1730,7 +1730,7 @@ const name = 'Mary';
 
 if (name === 'Miriam') {
   console.log('The name is Miriam');
-} else if (nombre === 'Felipa') {
+} else if (name === 'Felipa') {
   console.log('The name is Felipa');
 } else {
   console.log('The name is not Miriam or Felipa');
