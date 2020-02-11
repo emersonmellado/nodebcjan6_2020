@@ -27,7 +27,7 @@ The course content will be distributed on a weekly basis, feel free to read it a
 
 ## Walk
 ### Week 6
-* Browser API
+* [Browser API](browserapi.md)
 
 ### Week 7
 * Node.js
