@@ -2343,7 +2343,7 @@ if (isUserLoggedIn()) {
 ```
 
 * In the first if statement we call the getUserAge function and get a number back (30)
-* Then we compare that to know if the returned valur is bigger or equal to 18
+* Then we compare that to know if the returned value is bigger or equal to 18
 * In the second if statement we call the isUserLoggedIn, get a boolean value back
 * If the returned value is true then we show the message to the user
 * If it's false then the if statement block won't be executed
