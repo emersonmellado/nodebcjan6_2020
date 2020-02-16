@@ -1001,9 +1001,9 @@ const paragraph = document.querySelector('p');
 
 console.log(paragraph.innerText); // This is a great text to get using JavaScript
 
-paragraph.innerText = 'JavaScript in browsers is amazing'; 
+let newParagraph = paragraph.innerText = 'JavaScript in browsers is amazing'; 
 
-console.log(paragraph.innerText); // JavaScript in browsers is amazing
+console.log(newParagraph); // JavaScript in browsers is amazing
 ```
 
 * In this example we get the content text from the paragraph using `paragraph.innerText`
