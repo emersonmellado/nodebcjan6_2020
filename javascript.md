@@ -2426,7 +2426,7 @@ console.log( getGreetingMessage('Raúl') ); // Hi Raul!!!
 **Example:**
 ```js
 const greeting = function(username, age) {
-  console.log('The user: ' + username + ' has ' + age + ' years!!!';
+  console.log('The user: ' + username + ' has ' + age + ' years!!!');
 }
 
 greeting('John', 39); // The user: John has 39 years!!!
