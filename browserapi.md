@@ -1417,7 +1417,7 @@ body.addEventListener('click', function(event) {
 
 [Exercise 36](./exercises/browser/ex_36.md)
 
-* With JavaScript we can handle keyboard events too like `keypress, keydown y keyup`
+* With JavaScript we can handle keyboard events too like `keypress, keydown, and keyup`
 * The event object that we get as parameter has a `charCode` property with a numeric value that represents the pressed key
 * Strings has a static method called fromCharCode (`String.fromCharCode`) that will accept a number value as parameter and returns the key value
 * Combining `charCode` and `String.fromCharCode` we can know the key that the user pressed
