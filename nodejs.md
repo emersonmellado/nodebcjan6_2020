@@ -559,7 +559,7 @@ npm start
 * Also we can link NPM modules while we develop our projects if we have them as external dependencies
 
 ### How do Node.js modules work
-* Node.js uses a [module pattern](https://medium.com/@tkssharma/javascript-module-pattern-b4b5012ada9f) to export code
+* Node.js uses a [module pattern]((https://medium.com/@tkssharma/javascript-module-pattern-b4b5012ada9f)) to export code
 * Once we export our code Node.js will enclose it inside a function so the module scope is private
 * Module variables and rest of the code will be private
 * We only can access and use what it has been exported using `module.exports`
