@@ -62,9 +62,9 @@ Server running on port 3000
 * index.pug
 ```
 doctype html
-  head
+head
     title Simple site using Node.js, Express and Pug
-  body
+body
     h1 Wellcome to Node.js, Express and Pug
     p This project is just to practice
 ```
