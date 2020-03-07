@@ -5,7 +5,7 @@
 * And configure our statics assets
 * Also, we can create templates using Pug and render them from Express server using the render method
 * It's time to put everything in action
-* You can donwload the project code from the [github repo]()
+* You can donwload the project code from the [github repo](https://github.com/emersonmellado/node-site-example)
 * First lets create a node-site-example folder and change directory into it
 
 ```bash
