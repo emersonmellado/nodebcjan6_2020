@@ -41,7 +41,7 @@
 
 ### Install MongoDB
 * To use MongoDB locally we need to download & install it
-* Open the [MongoDB download section](https://www.mongodb.com/download-center#community) and choose your OS MongoDB version
+* Open the [MongoDB download section](https://docs.mongodb.com/manual/administration/install-community/) and choose your OS MongoDB version
 * Make sure you choose the Community Server version
 * When you're sure you got the right version just hit the Download button
 * Execute the downloaded installer and follow all the wizard steps
@@ -679,6 +679,9 @@ switched to db comics
 ```
 
 * Excelent now we can use `_id` in our queries
+
+#### Practice
+[Exercise 8](./exercises/mongo/ex_8.md)
 
 ## Delete a document
 * To delete a document we use `deleteOne`

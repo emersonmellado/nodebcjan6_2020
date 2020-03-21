@@ -30,13 +30,13 @@ The course content will be distributed on a weekly basis, feel free to read it a
 * [Browser API](browserapi.md)
 
 ### Week 7
-* Node.js
+* [Node.js](nodejs.md)
 
 ### Week 8
-* Building a Node.js site with Express
+* [Building a Node.js site with Express](buildingsite.md)
 
 ### Week 9
-* MongoDB & Mongoose
+* [MongoDB & Mongoose](mongodb.md)
 
 ## Run
 ### Week 10
