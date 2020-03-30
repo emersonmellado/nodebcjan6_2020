@@ -398,6 +398,7 @@ true
 ```
 
 * Al ser un cursor el restulado podemos llamar al método `next` para obtener el próximo resultado
+* As the result is a cursor we can call the next method to obtain the next result
 
 ```bash
 > cursor.next()
