@@ -381,6 +381,7 @@ comics
 * But in reality it returns a `cursor`
 * As we have JavaScript we can assign the find returned value to a variable
 * Dado que no le pasamos parámetro esta búsqueda retorna todos los documentos que tenemos en la colección
+* Since we do not pass a parameter this search returns all the documents we have in the collection
 * Using limit we can `limit` the amount of documents that we query
 * In this example we'll get the first three collection documents
 
