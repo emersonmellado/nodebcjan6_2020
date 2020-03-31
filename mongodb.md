@@ -852,8 +852,8 @@ collection.insertMany(documents, (err, result) => {
 * Also accepts a second parameter that's a callback
 
 ```js
-const filter = { name: 'HULK' };
-const update = { $set: { power: 100 } };
+const filter = { "name": "HULK" };
+const update = { $set: { "power": 100 } };
 
 collection.updateOne(filter, update, (err, result) => {
     callback(result);
@@ -863,10 +863,14 @@ collection.updateOne(filter, update, (err, result) => {
 * We can do the same with updateMany
 
 ```js
-const filter = { name: 'HULK' };
-const update = { $set: { power: 100 } };
+const filter = [
+	{ "name": "CAPTAIN MARVEL"},
+	{ "name": "HULK"},
+	{ "name": "THOR"}
+];
+const update = { $set: { "power": 100 } };
 
-collection.updateMany(doc, update, (err, result) => {
+collection.updateMany(filter, update, (err, result) => {
     callback(result);
 });
 ```
