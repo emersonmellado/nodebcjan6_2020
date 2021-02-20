@@ -2549,7 +2549,7 @@ const greeting    = data[4];
 console.log(message);
 console.log(lifeMeaning);
 console.log('single?:', single);
-console.log(greeting);
+console.log(greeting());
 
 // Ready to have your mind blown?
 greeting(); // This will show hi on the console
